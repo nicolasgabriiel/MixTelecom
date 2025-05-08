@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Plano de Internet - Operadora Amigo</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 40px 40px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: #00f2fe;
+      margin-bottom: 10px;
+    }
+
+    p.subtitle {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+      color: #ccc;
+    }
+
+    .main-image {
+      width: 100%;
+      max-width: 500px;
+      border-radius: 10px;
+      margin-bottom: 30px;
+      box-shadow: 0 0 20px rgba(0, 242, 254, 0.2);
+    }
+
+    .features {
+      max-width: 800px;
+      margin-bottom: 40px;
+      text-align: left;
+    }
+
+    .features h2 {
+      color: #00f2fe;
+      margin-bottom: 15px;
+    }
+
+    .features ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .features ul li {
+      margin-bottom: 10px;
+      font-size: 1.1rem;
+      padding-left: 20px;
+      position: relative;
+    }
+
+    .features ul li::before {
+      content: "✔";
+      position: absolute;
+      left: 0;
+      color: #00f2fe;
+    }
+
+    .offer-box {
+      background-color: rgba(255, 255, 255, 0.05);
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 30px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    }
+
+    .offer-box h2 {
+      font-size: 1.8rem;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    .offer-box p {
+      font-size: 1.1rem;
+      color: #ccc;
+    }
+
+    .whatsapp-button {
+      display: inline-block;
+      background-color: #25D366;
+      color: white;
+      padding: 15px 30px;
+      font-size: 1.2rem;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background 0.3s;
+      margin-top: 20px;
+    }
+
+    .whatsapp-button:hover {
+      background-color: #1ebe5d;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2rem;
+      }
+
+      .features {
+        text-align: center;
+      }
+
+      .whatsapp-button {
+        font-size: 1rem;
+        padding: 12px 24px;
+      }
+    }
+
+    .whatsapp-float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25D366;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.whatsapp-float:hover {
+  background-color: #1ebe5d;
+}
+  </style>
+</head>
+<body>
+
+  <h1>Plano Amigo 500 Mega</h1>
+  <p class="subtitle">Conecte-se ao futuro com a internet que não te deixa na mão!</p>
+
+  <img src="./img/plano-atual.jpg" alt="Plano de Internet Amigo" class="main-image">
+
+  <div class="features">
+    <h2>Por que escolher a Amigo Internet?</h2>
+    <ul>
+      <li>Velocidade de até 500 Mbps para toda a família</li>
+      <li>Instalação grátis e agendada conforme sua disponibilidade</li>
+      <li>Atendimento humano e suporte técnico 24/7</li>
+      <li>Sem burocracia: contratação 100% digital</li>
+      <li>Wi-Fi com alcance ampliado incluso no plano</li>
+    </ul>
+  </div>
+
+  <div class="offer-box">
+    <h2>Oferta Especial por Tempo Limitado</h2>
+  </div>
+
+  <a href="https://wa.me/5551981675715?text=Ol%C3%A1%21%20Tenho%20interesse%20no%20Plano%20da%20Amigo%20Internet.%20Pode%20me%20passar%20mais%20detalhes"
+  class="whatsapp-button" target="_blank">
+    Fale conosco no WhatsApp
+  </a>
+
+  <a href="https://wa.me/5551981675715?text=Ol%C3%A1%21%20Tenho%20interesse%20no%20Plano%20da%20Amigo%20Internet.%20Pode%20me%20passar%20mais%20detalhes" class="whatsapp-float" target="_blank" aria-label="Fale no WhatsApp">
+    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg" alt="WhatsApp" width="30" height="30" style="filter: invert(1);">
+  </a>
+
+</body>
+</html>
